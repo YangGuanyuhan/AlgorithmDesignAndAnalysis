@@ -1,15 +1,18 @@
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class hello {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-       // String command = in.nextLine();
-         String command="echo   > abc";
-        String[] commands = command.split(" ");
-        //print commands
-        System.out.println(commands.length);
-        for (String s : commands) {
-            System.out.println(s);
-        }
+        Comparator<Integer> cmp = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 - o2;
+            }
+        };
+       //comparator test
+        System.out.println(cmp.compare(1, 3));
+        System.out.println(cmp.compare(2, 1));
+        System.out.println(cmp.compare(1, 1));
+
     }
 }
