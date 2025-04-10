@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment2/B2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab/lab4/PrintAllTopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab/lab4/TopologicalSortKahn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab/lab4/TopologicalSortKahnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment3/A3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment3/BruteForceSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment3/LRUusedLinkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,45 +49,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.HelloTest.additionOperation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloTest.multiplicationOperation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloTest.subtractionOperation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TopologicalSortKahnTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TopologicalSortKahnTest.topologicalOrderForComplexDAG.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TopologicalSortKahnTest.topologicalOrderForNonDAG.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/15235/IdeaProjects/Algorithm design and analysis/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/15235/IdeaProjects/Algorithm design and analysis/src/lab2/BruteForceMatching_copy.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.A1.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.BruteForceMatching.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Matching.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Rectangle.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TestSampleGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TestStableMatching.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TopologicalSort.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TopologicalSortKahn.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TowerOfHanoi.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.hello.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.permutation.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.HelloTest.additionOperation.executor": "Run",
+    "JUnit.HelloTest.multiplicationOperation.executor": "Run",
+    "JUnit.HelloTest.subtractionOperation.executor": "Run",
+    "JUnit.TopologicalSortKahnTest.executor": "Run",
+    "JUnit.TopologicalSortKahnTest.topologicalOrderForComplexDAG.executor": "Run",
+    "JUnit.TopologicalSortKahnTest.topologicalOrderForNonDAG.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/15235/IdeaProjects/Algorithm design and analysis/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "two.files.diff.last.used.file": "C:/Users/15235/IdeaProjects/Algorithm design and analysis/src/lab2/BruteForceMatching_copy.java",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.A1.executor": "Run",
+    "应用程序.BruteForceMatching.executor": "Run",
+    "应用程序.BruteForceSchedule.executor": "Run",
+    "应用程序.LRUusedLinkedlist.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.Matching.executor": "Run",
+    "应用程序.Rectangle.executor": "Run",
+    "应用程序.TestSampleGenerator.executor": "Run",
+    "应用程序.TestStableMatching.executor": "Run",
+    "应用程序.TopologicalSort.executor": "Run",
+    "应用程序.TopologicalSortKahn.executor": "Run",
+    "应用程序.TowerOfHanoi.executor": "Run",
+    "应用程序.hello.executor": "Run",
+    "应用程序.permutation.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\15235\IdeaProjects\Algorithm design and analysis\src" />
@@ -237,7 +237,9 @@
       <workItem from="1743127587991" duration="925000" />
       <workItem from="1743132246824" duration="1235000" />
       <workItem from="1743666328322" duration="5591000" />
-      <workItem from="1743749745882" duration="5420000" />
+      <workItem from="1743749745882" duration="5443000" />
+      <workItem from="1744256323883" duration="4180000" />
+      <workItem from="1744268253098" duration="3236000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -247,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743058575005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1743756381297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743756381297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
