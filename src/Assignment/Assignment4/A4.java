@@ -1,8 +1,10 @@
+package Assignment.Assignment4;
+
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Main {
+public class A4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt(); // number of nodes
@@ -164,3 +166,4 @@ class heapNode4A implements Comparable<heapNode4A> {
         return Integer.compare(this.distance, other.distance);
     }
 }
+
