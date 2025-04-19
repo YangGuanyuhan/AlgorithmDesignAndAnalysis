@@ -1,8 +1,10 @@
+package Assignment.Assignment4;
+
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class Main {
+public class B4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 3">
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment4/A4.java" afterDir="false" />
+    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 4A">
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment4/B4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -235,7 +235,10 @@
       <workItem from="1744274611371" duration="144000" />
       <workItem from="1744877251109" duration="1016000" />
       <workItem from="1744941653671" duration="5509000" />
-      <workItem from="1744992352719" duration="3356000" />
+      <workItem from="1744992352719" duration="3419000" />
+      <workItem from="1745042327593" duration="2371000" />
+      <workItem from="1745066892610" duration="4177000" />
+      <workItem from="1745076765814" duration="6064000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -261,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744274525092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish lab 4A">
+      <option name="closed" value="true" />
+      <created>1744995777633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744995777633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +292,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="finish lab 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish lab 3" />
+    <MESSAGE value="finish lab 4A" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish lab 4A" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
