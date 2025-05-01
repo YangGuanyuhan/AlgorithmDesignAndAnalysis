@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 4A">
-      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment4/B4.java" afterDir="false" />
+    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 4B">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment/Assignment6/A6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment/Assignment6/A6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +238,11 @@
       <workItem from="1744992352719" duration="3419000" />
       <workItem from="1745042327593" duration="2371000" />
       <workItem from="1745066892610" duration="4177000" />
-      <workItem from="1745076765814" duration="6064000" />
+      <workItem from="1745076765814" duration="6146000" />
+      <workItem from="1745585817407" duration="4391000" />
+      <workItem from="1746064187483" duration="14612000" />
+      <workItem from="1746088193789" duration="955000" />
+      <workItem from="1746111744131" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -272,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744995777633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish lab 4B">
+      <option name="closed" value="true" />
+      <created>1745082894762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745082894762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +305,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="finish lab 3" />
     <MESSAGE value="finish lab 4A" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish lab 4A" />
+    <MESSAGE value="finish lab 4B" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish lab 4B" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
