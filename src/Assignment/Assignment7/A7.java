@@ -1,7 +1,9 @@
+package Assignment.Assignment7;
+
 
 import java.util.Scanner;
 
-public class Main {
+public class A7 {
     static int Max = 0;
 
     public static void main(String[] args) {
@@ -36,7 +38,7 @@ public class Main {
             return input.length();
         }
 
-      //  printArray(count);
+        //  printArray(count);
 
         int beforeIndex = 0;
         for (int i = 0; i < input.length(); i++) {
