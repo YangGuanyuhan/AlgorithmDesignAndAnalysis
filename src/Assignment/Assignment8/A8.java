@@ -1,6 +1,8 @@
+package Assignment.Assignment8;
+
 import java.util.Scanner;
 
-public class Main {
+public class A8 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int N = in.nextInt();

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 6">
+    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 7A">
+      <change afterPath="$PROJECT_DIR$/src/Assignment/Assignment8/A8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -242,7 +243,10 @@
       <workItem from="1746064187483" duration="14612000" />
       <workItem from="1746088193789" duration="955000" />
       <workItem from="1746111744131" duration="1331000" />
-      <workItem from="1746681363248" duration="3447000" />
+      <workItem from="1746681363248" duration="4467000" />
+      <workItem from="1746759310187" duration="4153000" />
+      <workItem from="1746787983622" duration="8156000" />
+      <workItem from="1747395667419" duration="2399000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -292,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746112197374</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finish lab 7A">
+      <option name="closed" value="true" />
+      <created>1746685374669</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746685374669</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finish lab 7A">
+      <option name="closed" value="true" />
+      <created>1747395863998</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747395863998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +335,8 @@
     <MESSAGE value="finish lab 4A" />
     <MESSAGE value="finish lab 4B" />
     <MESSAGE value="finish lab 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish lab 6" />
+    <MESSAGE value="finish lab 7A" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish lab 7A" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
