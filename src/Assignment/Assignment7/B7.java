@@ -1,7 +1,9 @@
+package Assignment.Assignment7;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class B7 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();//numbers of rectangles
