@@ -1,74 +1,73 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int N = in.nextInt();
-        int len = 1 << N;
-
-        Complex8A[] x = new Complex8A[len];
-        for (int i = 0; i < len; i++) {
-            double real = in.nextDouble();
-            double imag = 0;
-            x[i] = new Complex8A(real, imag);
+        int n = in.nextInt();
+        point8B[] points = new point8B[n];
+        for (int i = 0; i < n; i++) {
+            double x = in.nextDouble();
+            double y = in.nextDouble();
+            point8B p = new point8B(x, y);
+            points[i] = p;
         }
-        Complex8A[] y = fft(x);
-        for (int i = 0; i < len; i++) {
-            double magnitude = Math.sqrt(y[i].real * y[i].real + y[i].imag * y[i].imag);
-            System.out.printf("%.10f\n", magnitude);
-        }
-
-
-        in.close();
+        Arrays.sort(points, Comparator.comparingDouble(a -> a.x));
+        double min = minDistance(points, 0, n);
+        System.out.printf("%.4f\n", min);
     }
 
-    public static Complex8A[] fft(Complex8A[] x) {
-        int N = x.length;
-        if (N <= 1) {
-            return new Complex8A[]{x[0]};
+    public static double distance(point8B a, point8B b) {
+        return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
+    }
+
+    public static double minDistance(point8B[] points, int left, int right) {
+        if (right - left <= 3) {
+            double min = Double.MAX_VALUE;
+            for (int i = left; i < right; i++) {
+                for (int j = i + 1; j < right; j++) {
+                    min = Math.min(min, distance(points[i], points[j]));
+                }
+            }
+            return min;
         }
-        Complex8A[] even = new Complex8A[N / 2];
-        Complex8A[] odd = new Complex8A[N / 2];
-        for (int i = 0; i < N / 2; i++) {
-            even[i] = x[i * 2];
-            odd[i] = x[i * 2 + 1];
+        int mid = (left + right) / 2;
+        double d1 = minDistance(points, left, mid);
+        double d2 = minDistance(points, mid, right);
+        double d = Math.min(d1, d2);
+        ArrayList<point8B> strip = new ArrayList<>();
+
+        int i = mid - 1;
+        while (i >= left && Math.abs(points[mid].x - points[i].x) < d) {
+            strip.add(points[i]);
+            i--;
         }
 
-        Complex8A[] e = fft(even);
-        Complex8A[] d = fft(odd);
-
-        Complex8A[] y = new Complex8A[N];
-        for (int k = 0; k < N / 2; k++) {
-            double t = 2 * Math.PI * k / N;
-            Complex8A wk = new Complex8A(Math.cos(t), Math.sin(t));
-            Complex8A wkdk = wk.multiply(d[k]);
-            y[k] = e[k].add(wkdk);
-            y[k + N / 2] = e[k].subtract(wkdk);
+        i = mid;
+        while (i < right && Math.abs(points[i].x - points[mid].x) < d) {
+            strip.add(points[i]);
+            i++;
         }
-        return y;
+
+        strip.sort(Comparator.comparingDouble(a -> a.y));
+
+        for (int j = 0; j < strip.size(); j++) {
+            for (int k = j + 1; k < strip.size() && k <= j + 7; k++) {
+                d = Math.min(d, distance(strip.get(j), strip.get(k)));
+            }
+        }
+        return d;
     }
 }
 
+class point8B {
+    double x;
+    double y;
 
-class Complex8A {
-    double real;
-    double imag;
-
-    Complex8A(double real, double imag) {
-        this.real = real;
-        this.imag = imag;
-    }
-
-    Complex8A add(Complex8A other) {
-        return new Complex8A(this.real + other.real, this.imag + other.imag);
-    }
-
-    Complex8A subtract(Complex8A other) {
-        return new Complex8A(this.real - other.real, this.imag - other.imag);
-    }
-
-    Complex8A multiply(Complex8A other) {
-        return new Complex8A(this.real * other.real - this.imag * other.imag, this.real * other.imag + this.imag * other.real);
+    public point8B(double x, double y) {
+        this.x = x;
+        this.y = y;
     }
 }
-
