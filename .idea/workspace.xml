@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 8A">
+    <list default="true" id="5fedde93-46f9-49cd-9aac-25460df21b3b" name="更改" comment="finish lab 8B">
+      <change afterPath="$PROJECT_DIR$/src/learning/BellmanFord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -248,7 +249,9 @@
       <workItem from="1747395667419" duration="2399000" />
       <workItem from="1747398396442" duration="81000" />
       <workItem from="1747473676608" duration="5986000" />
-      <workItem from="1747496148779" duration="374000" />
+      <workItem from="1747496148779" duration="1084000" />
+      <workItem from="1747668847269" duration="497000" />
+      <workItem from="1747899657459" duration="7751000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -322,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747398445763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finish lab 8B">
+      <option name="closed" value="true" />
+      <created>1747497276545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747497276545</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +358,8 @@
     <MESSAGE value="finish lab 6" />
     <MESSAGE value="finish lab 7A" />
     <MESSAGE value="finish lab 8A" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish lab 8A" />
+    <MESSAGE value="finish lab 8B" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish lab 8B" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

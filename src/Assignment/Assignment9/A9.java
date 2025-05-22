@@ -1,9 +1,11 @@
+package Assignment.Assignment9;
+
 
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Main {
+public class A9 {
     static int ans = Integer.MAX_VALUE;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -75,3 +77,4 @@ public class Main {
 
     }
 }
+
