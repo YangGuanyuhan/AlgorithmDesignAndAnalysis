@@ -1,8 +1,10 @@
+package Assignment.Assignment10;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class A10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt(); // capacity
